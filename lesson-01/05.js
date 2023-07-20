@@ -5,13 +5,13 @@ let a = '25';
 let b = rule.length;
 
 switch (true) {
-  case b < a:
+  case b > a:
     console.log('Все таки нет правил без исключения');
     break;
-  case b > a:
+  case b < a:
     console.log('У меня 100 пудов все получится');
     break;
-  case b == a:
+  case b === a:
     console.log('50 на 50');
     break;
 }
