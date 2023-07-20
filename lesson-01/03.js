@@ -1,17 +1,27 @@
-let number = 1;
+// let number = 1;
 
-let a = number++;
+// let a = number++;
 
-console.log(a);
+// console.log(a);
 
-let b = ++number;
+// let b = ++number;
 
-console.log(b);
+// console.log(b);
 
-let c = number--;
+// let c = number--;
 
-console.log(c);
+// console.log(c);
 
-let d = --number;
+// let d = --number;
 
-console.log(d);
+// console.log(d);
+
+// console.log('----');
+
+// number = number++;
+
+// console.log(number);
+
+// number = ++number;
+
+// console.log(number);
