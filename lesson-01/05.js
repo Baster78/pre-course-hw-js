@@ -6,7 +6,6 @@ let b = rule.length;
 
 switch (true) {
   case a > b:
-    rule.length > a;
     console.log('Все таки нет правил без исключения');
   case a < b:
     console.log('У меня 100 пудов все получится');
