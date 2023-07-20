@@ -1,17 +1,17 @@
 let number = 1;
 
-number = number++;
+let a = number++;
 
-console.log(number);
+console.log(a);
 
-number = number++ + number++;
+let b = ++number;
 
-console.log(number);
+console.log(b);
 
-number = --number + --number;
+let c = number--;
 
-console.log(number);
+console.log(c);
 
-number = number-- - number--;
+let d = --number;
 
-console.log(number);
+console.log(d);
