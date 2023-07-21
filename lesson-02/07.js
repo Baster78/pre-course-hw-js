@@ -8,7 +8,7 @@ let passportMarried = {
 };
 
 const clone3 = structuredClone(passportMarried);
-clone3['married'] = true;
+clone3.married = true;
 
 console.log(passportMarried);
 console.log(clone3);
