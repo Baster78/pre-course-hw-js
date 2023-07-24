@@ -9,7 +9,6 @@ let passportMarried = {
 
 let copiedPrep = {
   ...passportMarried,
-  surname: 'Petrov',
   married: true,
   address: { ...passportMarried.address },
 };
