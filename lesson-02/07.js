@@ -8,7 +8,8 @@ let passportMarried = {
 };
 
 let copiedPrep = {
-  ...passportMarried,
+  name: 'Petr',
+  surname: 'Petrov',
   Married: true,
   address: { ...passportMarried.address },
 };
