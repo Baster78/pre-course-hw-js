@@ -7,12 +7,10 @@ let passportMarried = {
   },
 };
 
+let passportMarriedTrue = JSON.parse(JSON.stringify(passportWithAddress));
 // Добавляем информацию о женатости
-passportMarried.married = true;
+passportMarriedTrue.married = true;
 
 // Проверяем женатость
-if (passportMarried.married) {
-  console.log('Парень женат!');
-} else {
-  console.log('Парень не женат.');
-}
+console.log(passportMarried);
+console.log(passportMarriedTrue);
