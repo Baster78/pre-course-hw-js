@@ -3,12 +3,11 @@ let passportMarried = {
   surname: 'Petrov',
   address: {
     country: 'USA',
-    city: 'LA',
+    city: 'Bobryisk',
   },
 };
 
-let passportMarriedTrue = JSON.parse(JSON.stringify(passportWithAddress));
-// Добавляем информацию о женатости
+let passportMarriedTrue = structuredClone(passportMarried);
 passportMarriedTrue.married = true;
 
 // Проверяем женатость
