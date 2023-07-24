@@ -7,9 +7,17 @@ let passportMarried = {
   },
 };
 
-let passportMarriedTrue = structuredClone(passportMarried);
-passportMarriedTrue.married = true;
+function copyPrep(passportMarried) {
+  let copiedPrep = {
+    ...passportMarried,
+    isMarried: true,
+    address: { ...passportMarried.address },
+  };
 
-// Проверяем женатость
+  return copiedPrep;
+}
+
+let copiedPrep = copyPrep(passportMarried);
+
 console.log(passportMarried);
-console.log(passportMarriedTrue);
+console.log(copiedPrep);
