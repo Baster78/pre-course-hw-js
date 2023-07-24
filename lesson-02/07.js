@@ -8,11 +8,11 @@ let passportMarried = {
 };
 
 let copiedPrep = {
-  name: 'Petr',
+  ...passportMarried,
   surname: 'Petrov',
   married: true,
   address: { ...passportMarried.address },
 };
 
-console.log(copiedPrep);
 console.log(passportMarried);
+console.log(copiedPrep);
