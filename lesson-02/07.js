@@ -7,10 +7,12 @@ let passportMarried = {
   },
 };
 
-const clone3 = structuredClone(passportMarried);
+// Добавляем информацию о женатости
+passportMarried.married = true;
 
-clone2.address.city = 'Bobryisk';
-clone3.married = true;
-
-console.log(passportMarried);
-console.log(clone3);
+// Проверяем женатость
+if (passportMarried.married) {
+  console.log('Парень женат!');
+} else {
+  console.log('Парень не женат.');
+}
