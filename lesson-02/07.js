@@ -14,5 +14,5 @@ let copiedPrep = {
   address: { ...passportMarried.address },
 };
 
-console.log(passportMarried);
 console.log(copiedPrep);
+console.log(passportMarried);
