@@ -3,7 +3,7 @@ let passportMarried = {
   surname: 'Petrov',
   address: {
     country: 'USA',
-    city: 'Bobryisk',
+    city: 'LA',
   },
 };
 
@@ -17,9 +17,7 @@ function copyMarried(passportMarried) {
 }
 
 let copiedPrep = copyMarried(passportMarried);
-
 console.log(passportMarried);
-
 console.log(copiedPrep);
 
 // let passportMarriedTrue = { ...passportMarried };
