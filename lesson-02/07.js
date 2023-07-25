@@ -7,18 +7,11 @@ let passportMarried = {
   },
 };
 
-function copyMarried(passportMarried) {
-  let copiedPrep = {
-    ...passportMarried,
-    married: true,
-    address: { ...passportMarried.address },
-  };
-  return copiedPrep;
-}
+let passport2 = { ...passportMarried, address: { ...passportMarried.address } };
+passport2.married = true;
 
-let copiedPrep = copyMarried(passportMarried);
 console.log(passportMarried);
-console.log(copiedPrep);
+console.log(passport2);
 
 // let passportMarriedTrue = { ...passportMarried };
 
