@@ -19,4 +19,5 @@ function copyMarried(passportMarried) {
 let copiedPrep = copyMarried(passportMarried);
 
 console.log(passportMarried);
+
 console.log(copiedPrep);
