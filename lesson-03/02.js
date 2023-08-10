@@ -5,5 +5,5 @@ let word = words.indexOf("апельсин");
 if (word !== -1) {
   console.log("Ура! нашел");
 } else {
-  console.log("Придется поискать в другом магазине...");
+  console.log("Придется поискать в другом магазине_");
 }
