@@ -12,10 +12,3 @@ passport2.married = true;
 
 console.log(passportMarried);
 console.log(passport2);
-
-// let passportMarriedTrue = { ...passportMarried };
-
-// passportMarriedTrue.married = true;
-
-// console.log(passportMarried);
-// console.log(passportMarriedTrue);

@@ -1,22 +1,11 @@
-// // code
-// let prep = {
-//   name: 'Igor',
-//   sizes: {
-//     height: 177,
-//     weight: 80,
-//   },
-// };
+let colors = ['синий', 'черный', 'зеленый', 'красный', 'желтый', 'зеленый'];
 
-// function copyPrep(prep) {
-//   let copiedPrep = {
-//     ...prep,
-//     isMarried: true,
-//     sizes: { ...prep.sizes },
-//   };
+function createColorString() {
+  return colors
+    .filter(
+      (color) => color === 'черный' || color === 'красный' || color === 'желтый'
+    )
+    .join('-');
+}
 
-//   return copiedPrep;
-// }
-
-// let copiedPrep = copyPrep(prep);
-
-// console.log(copiedPrep);
+console.log(createColorString());
