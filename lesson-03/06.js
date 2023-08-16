@@ -31,16 +31,9 @@ const users3 = [
   },
 ];
 
-// обновить имя у второго юзера
-// console.log(
-//   users.map((users3) =>
-//     users3.id === 1 ? { ...users3, isMarried: true } : users3
-//   )
-// );
-
-const users3Married = users3.map((user) => ({
-  ...user,
-  isMarried: true,
-}));
-
-console.log(users3Married);
+console.log(
+  users3.map((user) => ({
+    ...user,
+    isMarried: true,
+  }))
+);
